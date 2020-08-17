@@ -21,8 +21,8 @@ laser_pistol,aimed,55,68
 laser_rifle,auto,34,46
 laser_rifle,snapshot,25,65
 laser_rifle,aimed,50,100
-heavy_laser,snapshot,33,50
-heavy_laser,aimed,75,84
+heavy_laser,snapshot,33,75
+heavy_laser,aimed,60,110
 plasma_pistol,auto,30,50
 plasma_pistol,snapshot,30,65
 plasma_pistol,aimed,60,85
