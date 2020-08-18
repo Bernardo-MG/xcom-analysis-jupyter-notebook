@@ -4,6 +4,14 @@ X-Com Analysis Jupyter Notebook
 
 Data analysis of the X-Com saga.
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/Bernardo-MG/xcom-analysis-jupyter-notebook)
+
+Data Sources
+------------
+
+- `UFOpaedia.org <https://www.ufopaedia.org/>`_, X-Com Wiki
+- `XCom Trilogy UFOpaedia <http://ufopedia.csignal.org/>`_
+
 Usage
 -----
 
