@@ -4,7 +4,7 @@ X-Com Analysis Jupyter Notebook
 
 Data analysis of the X-Com saga.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/Bernardo-MG/xcom-analysis-jupyter-notebook)
+|binder|
 
 Data Sources
 ------------
@@ -49,3 +49,8 @@ The project has been released under the `MIT License`_.
 .. _GitHub project page: https://github.com/Bernardo-MG/xcom-analysis-jupyter-notebook
 .. _project issues tracker: https://github.com/Bernardo-MG/xcom-analysis-jupyter-notebook/issues
 .. _MIT License: http://www.opensource.org/licenses/mit-license.php
+
+.. |binder| image:: http://mybinder.org/badge.svg
+    :alt: Binder
+    :scale: 100%
+    :target: http://mybinder.org/repo/Bernardo-MG/xcom-analysis-jupyter-notebook
