@@ -1,0 +1,31 @@
+alien,time_units,stamina,health,bravery,reactions,firing_accuracy,throwing_accuracy,strength,psionic_strength,psionic_skill,armor_front,armor_side,armor_rear,armor_under,energy_recharge,victory_points,aggresion,melee,intelligence,height_standing,height_kneeling,target
+Floater Soldier,50,90,35,80,50,50,58,40,35,0,8,6,4,12,30,12,2,70,4,21,16,unarmored
+Floater Navigator,50,90,35,80,50,50,58,40,35,0,8,6,4,12,30,14,2,70,5,21,16,unarmored
+Floater Medic,50,90,35,80,50,50,58,40,35,0,8,6,4,12,30,16,1,70,6,21,16,unarmored
+Floater Engineer,50,90,35,80,50,50,58,40,35,0,8,6,4,12,30,18,2,70,7,21,16,unarmored
+Floater Leader,55,95,40,80,60,60,58,47,40,0,16,12,8,12,30,25,0,70,8,21,16,unarmored
+Floater Commander,60,100,45,80,66,63,65,48,45,0,24,18,12,16,30,35,0,76,8,21,16,unarmored
+Sectoid Soldier,54,90,30,80,63,52,58,30,40,0,4,3,2,2,30,10,2,76,3,16,12,unarmored
+Sectoid Navigator,54,90,30,80,63,52,58,30,40,0,4,3,2,2,30,12,2,76,4,16,12,unarmored
+Sectoid Medic,54,90,30,80,63,52,58,30,40,0,4,3,2,2,30,14,1,76,5,16,12,unarmored
+Sectoid Engineer,54,90,30,80,63,52,58,30,40,0,4,3,2,2,30,16,2,76,6,16,12,unarmored
+Sectoid Leader,54,90,30,80,63,52,58,30,50,50,4,3,2,2,30,20,1,76,7,16,12,unarmored
+Sectoid Commander,54,90,30,80,63,52,58,30,50,60,4,3,2,2,30,25,0,76,8,16,12,unarmored
+Snakeman Soldier,40,80,45,80,45,58,65,47,40,0,20,18,16,12,30,15,2,54,2,18,18,snakeman
+Snakeman Navigator,40,80,45,80,45,58,65,47,40,0,20,18,16,12,30,17,2,54,3,18,18,snakeman
+Snakeman Engineer,40,80,45,80,45,58,65,47,40,0,20,18,16,12,30,20,2,54,4,18,18,snakeman
+Snakeman Leader,40,80,45,80,55,65,65,47,45,0,20,24,22,20,30,28,2,54,5,18,18,snakeman
+Snakeman Commander,45,84,55,80,65,58,65,47,50,0,26,26,22,20,30,36,2,54,6,18,18,snakeman
+Ethereal Soldier,68,96,55,80,75,74,80,48,50,40,35,35,35,35,40,20,1,85,6,20,15,ethereal
+Ethereal Leader,68,96,55,80,75,74,80,48,60,45,40,40,40,40,40,30,1,85,7,20,15,ethereal
+Ethereal Commander,68,96,55,80,75,74,80,48,65,50,45,45,45,45,40,40,1,85,8,20,15,ethereal
+Muton Soldier,56,90,125,80,60,54,62,70,25,0,20,20,20,10,40,15,2,78,2,21,16,muton
+Muton Navigator,56,90,125,80,60,54,62,70,25,0,24,24,24,15,40,17,2,78,3,21,16,muton
+Muton Engineer,56,90,125,80,60,54,62,70,25,0,28,28,28,20,40,19,2,78,4,21,16,muton
+Reaper,62,90,148,90,64,0,0,90,35,0,28,28,28,4,34,25,2,80,2,23,16,reaper
+Chryssalid,110,140,96,100,70,0,0,110,50,0,34,34,34,34,40,25,2,80,4,21,16,chryssalid
+Silacoid,40,80,114,100,40,0,0,70,80,0,50,50,50,10,40,20,2,80,3,10,10,silacoid
+Celatid,70,90,68,90,40,100,0,70,60,0,20,20,20,20,40,20,2,80,4,12,12,unarmored
+Sectopod,62,90,96,110,64,60,0,90,100,0,145,130,100,90,50,30,1,80,4,23,16,sectopod
+Cyberdisc,62,90,120,110,64,60,0,90,100,0,34,34,34,34,50,20,1,80,5,15,15,cyberdisk
+Zombie,40,110,84,110,40,0,0,84,80,0,4,4,4,4,20,18,2,80,3,18,18,zombie
