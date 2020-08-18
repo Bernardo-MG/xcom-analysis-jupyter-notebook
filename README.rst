@@ -4,6 +4,8 @@ X-Com Analysis Jupyter Notebook
 
 Data analysis of the X-Com saga.
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/Bernardo-MG/xcom-analysis-jupyter-notebook)
+
 Data Sources
 ------------
 
