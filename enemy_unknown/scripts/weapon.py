@@ -38,3 +38,15 @@ def burst(group):
         shots = 1
 
     return shots
+
+
+def penetrating_damage(base_damage, armor):
+    """
+    Returns the damage after applying armor.
+    """
+    if armor >= base_damage:
+        damage = 0
+    else:
+        damage = base_damage - armor
+
+    return damage
