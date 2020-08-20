@@ -1,3 +1,6 @@
+import math
+
+
 def max_shots(group):
     """
     Returns the max number of shots a weapon can achieve in a turn.
@@ -67,3 +70,20 @@ def penetrating_damage(base_damage, armor):
         damage = damage_range * chance_to_damage / 2
 
     return damage
+
+
+def hits_to_kill(damage, health):
+    """
+    Returns the number of hits it takes to kill the target.
+    """
+    if damage > 0:
+        hits = health / damage
+    else:
+        hits = 1000
+
+    if hits < 1:
+        hits = 1
+    else:
+        hits = math.ceil(hits)
+
+    return hits
