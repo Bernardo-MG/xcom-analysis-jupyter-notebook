@@ -1,0 +1,15 @@
+target,armor_piercing,incendiary,high_explosive,gauss,sonic,stun,drill,electric
+terrain,100,100,100,100,100,100,100,100
+unarmored,100,100,100,100,100,100,160,150
+plastic_aqua_armor,90,80,100,80,100,100,120,110
+ion_armor,80,0,80,70,90,100,110,100
+tank,95,40,80,60,100,100,80,120
+deep_one,90,90,80,90,110,100,120,0
+gillman,100,100,100,100,110,100,120,0
+tasoth,80,40,90,70,120,110,90,0
+calcinite,100,90,100,90,110,100,80,0
+tentaculat,80,100,150,90,110,110,110,0
+lobsterman,20,30,30,30,50,110,200,0
+xarquid,100,60,60,70,90,90,145,0
+hallucinoid,60,170,70,80,100,100,60,0
+zombie,90,90,90,80,90,90,110,0

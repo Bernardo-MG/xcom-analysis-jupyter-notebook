@@ -47,8 +47,8 @@ def chance_to_damage(damage, armor):
     """
     Returns the chance to damage against the received armor.
     """
-    min_prop = 0
-    max_prop = 2
+    min_prop = 0.5
+    max_prop = 1.5
 
     min_damage = min_prop * damage
     max_damage = max_prop * damage
@@ -76,8 +76,8 @@ def penetrating_damage(base_damage, armor):
     """
     Returns the damage after applying armor.
     """
-    min_prop = 0
-    max_prop = 2
+    min_prop = 0.5
+    max_prop = 1.5
 
     min_damage = min_prop * base_damage
     max_damage = max_prop * base_damage
