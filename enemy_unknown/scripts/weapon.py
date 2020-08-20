@@ -55,6 +55,8 @@ def chance_to_damage(damage, armor):
 
     if armor >= max_damage:
         chance = 0
+    elif armor < min_damage:
+        chance = 1
     else:
         # To ease handling the minimal damage we will normalize values
         max_damage_norm = max_damage - min_damage
@@ -82,6 +84,8 @@ def penetrating_damage(base_damage, armor):
 
     if armor >= max_damage:
         damage = 0
+    elif armor < min_damage:
+        damage = base_damage
     else:
         # To ease handling the minimal damage we will normalize values
         max_damage_norm = max_damage - min_damage
