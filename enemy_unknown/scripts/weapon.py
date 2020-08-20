@@ -43,6 +43,33 @@ def burst(group):
     return shots
 
 
+def chance_to_damage(damage, armor):
+    """
+    Returns the chance to damage against the received armor.
+    """
+    min_prop = 0
+    max_prop = 2
+
+    min_damage = min_prop * damage
+    max_damage = max_prop * damage
+
+    if armor >= max_damage:
+        chance = 0
+    else:
+        # To ease handling the minimal damage we will normalize values
+        max_damage_norm = max_damage - min_damage
+        armor_norm = armor - min_damage
+
+        # The damage required to actually damage the target with 1 point
+        lowest_valid_damage = armor_norm + 1
+        # The number of damage values which can damage the target
+        damage_range = max_damage_norm - lowest_valid_damage
+        # Proportion of the full damage spectrum which can actually damage the target
+        chance = damage_range / max_damage_norm
+
+    return chance
+
+
 def penetrating_damage(base_damage, armor):
     """
     Returns the damage after applying armor.
@@ -65,9 +92,9 @@ def penetrating_damage(base_damage, armor):
         # The number of damage values which can damage the target
         damage_range = max_damage_norm - lowest_valid_damage
         # Proportion of the full damage spectrum which can actually damage the target
-        chance_to_damage = damage_range / max_damage_norm
+        to_damage = damage_range / max_damage_norm
         #
-        damage = damage_range * chance_to_damage / 2
+        damage = damage_range * to_damage / 2
 
     return damage
 
