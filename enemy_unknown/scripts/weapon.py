@@ -1,4 +1,6 @@
 import math
+from decimal import Decimal
+from .probability import roll_chance
 
 
 def max_shots(group):
@@ -53,23 +55,7 @@ def chance_to_damage(damage, armor):
     min_damage = min_prop * damage
     max_damage = max_prop * damage
 
-    if armor >= max_damage:
-        chance = 0
-    elif armor < min_damage:
-        chance = 1
-    else:
-        # To ease handling the minimal damage we will normalize values
-        max_damage_norm = max_damage - min_damage
-        armor_norm = armor - min_damage
-
-        # The damage required to actually damage the target with 1 point
-        lowest_valid_damage = armor_norm + 1
-        # The number of damage values which can damage the target
-        damage_range = max_damage_norm - lowest_valid_damage
-        # Proportion of the full damage spectrum which can actually damage the target
-        chance = damage_range / max_damage_norm
-
-    return chance
+    return roll_chance(Decimal(min_damage), Decimal(max_damage), Decimal(armor))
 
 
 def penetrating_damage(base_damage, armor):
