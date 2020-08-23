@@ -67,11 +67,11 @@ def hits_to_kill(damage, health):
     if damage > 0:
         hits = health / damage
     else:
-        hits = 1000
+        hits = math.inf
 
     if hits < 1:
         hits = 1
-    else:
+    elif hits < math.inf:
         hits = math.ceil(hits)
 
     return hits
