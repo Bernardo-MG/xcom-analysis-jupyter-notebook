@@ -1,5 +1,5 @@
 import math
-from decimal import Decimal
+from scipy.stats import randint
 from .probability import roll_chance, roll_success_range
 from .action import max_actions
 
@@ -37,7 +37,8 @@ def chance_to_damage(damage, armor):
     min_damage = min_prop * damage
     max_damage = max_prop * damage
 
-    return roll_chance(Decimal(min_damage), Decimal(max_damage), Decimal(armor))
+    damage_range = randint(min_damage, max_damage + 1)
+    return damage_range.sf(armor)
 
 
 def penetrating_damage(base_damage, armor):
